@@ -1,0 +1,54 @@
+
+body {
+   background-color: hsl(187, 49%, 27%);
+}
+
+.header { 
+    padding: 80;
+    text-align: center;
+    background-color: #36c29385;
+    border-radius: 20px;
+    color: black;
+
+}
+.header h1 {
+    font-size: 120px;
+    text-decoration: double;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: hsla(241, 49%, 27%, 0.541);
+    height: 71px;
+    font-size: 71px;
+    border-radius: 80px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    height: 80px;
+    width: 250px;
+    color: black;
+    text-align: center;
+    text-decoration: navajowhite;
+}
+.navbar a.right {
+    float: right;
+}
+.navbar a:hover {
+    background-color: rgb(43, 145, 102);
+    color: black;
+}
+
+.background { 
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: #36c29385;
+    opacity: 0.8;
+
+
+}
